@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'django_todo.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'DB_NAME',
+        'NAME': BASE_DIR / 'DB_NAME',
     }
 }
 
